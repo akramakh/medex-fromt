@@ -1,0 +1,78 @@
+ {
+  margin-top: 20px;
+}
+.header {
+  padding: 10px 0;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  float: left;
+  color: #747474;
+}
+
+.header .options {
+  float: right;
+  margin: 0;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+}
+.header .options > i {
+  font-size: 24px;
+  color: #2699fb;
+  margin: auto;
+}
+.dropdown-menu-right {
+  right: 15px;
+}
+.dropdown-menu {
+  top: 45px;
+  padding: 10px 0;
+  box-sizing: unset;
+}
+.dropdown-item {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none !important;
+}
+.dropdown-item:hover {
+  background: rgba(86, 176, 255, 0.502);
+}
+
+.header .options.add {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  background: #2699fb;
+  border-radius: 5px;
+}
+.header .options.add > i {
+  margin: auto;
+  color: #fff;
+  font-size: 14px;
+}
+
+.todo-list {
+  margin: 0;
+  /* padding: 10px; */
+}
+
+.todo-list > ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.todo-list > ul li {
+  width: 100%;
+}

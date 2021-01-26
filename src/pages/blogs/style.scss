@@ -1,0 +1,45 @@
+#blog-list {
+  padding: 50px 0;
+}
+.search-widget {
+  .card-body {
+    padding: 0;
+    button {
+      height: 100%;
+    }
+    input {
+      padding: 10px;
+    }
+  }
+}
+.tags-widget {
+  ul.tags {
+    li {
+      margin: 0 2px;
+    }
+  }
+}
+.post-thumb {
+  height: 50px;
+  border-radius: 4px;
+  width: 80px;
+  float: left;
+  overflow: hidden;
+  background: #eee;
+}
+.pub-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    margin-right: 4px;
+  }
+}
+.post-author {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  .user-avatar {
+    margin-right: 10px;
+  }
+}

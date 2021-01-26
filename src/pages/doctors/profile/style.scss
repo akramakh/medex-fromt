@@ -1,0 +1,48 @@
+#doctor-profile {
+  padding: 20px 50px;
+}
+.create-appointment {
+  .ant-modal-body {
+  }
+  .content-container {
+    min-height: 300px;
+    .ant-alert-success {
+      border-radius: 4px;
+      margin: 20px auto;
+    }
+    h2 {
+      padding: 10px 0 35px;
+    }
+    .in {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 16px #ddd;
+    }
+    textarea {
+      min-height: 300px;
+      max-height: 500px;
+      resize: vertical;
+      overflow-y: auto;
+    }
+  }
+  .ant-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .ant-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

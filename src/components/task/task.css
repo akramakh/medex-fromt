@@ -1,0 +1,47 @@
+.item {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 10px;
+  background: #f9f9f9;
+  margin: 5px 0;
+}
+.item .info {
+  width: auto;
+  display: grid;
+}
+.item .info > a h3 {
+  color: #5ba3d8 !important;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.item .info > span {
+  color: #aaa;
+}
+
+.item .options {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  float: right;
+  margin: auto 10px;
+  margin-left: auto;
+  /* border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ccc; */
+  color: #ccc;
+  cursor: pointer;
+}
+.item .options > i {
+  /* margin: auto; */
+  font-size: 26px;
+}
+
+.item.completed {
+  background-color: #d6ffd4 !important;
+}
+
+.item.expired {
+  background-color: #ffd7d4 !important;
+}

@@ -1,0 +1,17 @@
+.section-search {
+  .btn-search {
+    width: 46px;
+    height: 46px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #43425d;
+    .anticon {
+      font-size: 18px;
+    }
+  }
+}
